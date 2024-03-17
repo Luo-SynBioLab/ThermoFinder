@@ -21,10 +21,20 @@ ThermoFinder is a python implementation of the model.
 **Here is the framework of ThermoFinder.**
 
 <p align="center">
-  <img  src="Figures/Figure1.jpg" >
+  <img  src="Figures/Figure1.jpg" width="50%" height="50%">
 </p>
 
-## 2. Installation
+# 2. Prerequisites
+[(Back to top)](#table-of-contents)
+
+Notice:
+- You need download four pretrained language modoels: *SeqVec*, *ProtCNN*, *ProtTrans*, *CPCProt*, the link is provided as follows:
+- https://github.com/Rostlab/SeqVec
+- https://github.com/google-research/google-research/tree/master/using_dl_to_annotate_protein_universe
+- https://github.com/agemagician/ProtTrans?tab=readme-ov-file#models
+- https://github.com/amyxlu/CPCProt
+
+## 3. Installation
 ```
 python = 3.8.13
 ```
@@ -33,12 +43,19 @@ You could configure enviroment by running this
 pip install -r requirment.txt
 ```
 
-## 3. Requirments
+## 4. Requirments
 In order to run successfully, the generation of embedded vectors requires GPU. We utilized an NVIDIA GeForce RTX 3080 with 10018MiB to embed protein sequences to a vector.
 Other hardware equipments are not necessary.
 
-## 4. Usage
+## 5. Usage
 For ThermoFinder, you could run Fused_model_XX.py file,  model training and prediction are all implemented.
 
-## 5. Contact
-If you have any question, you could contact yuhanid147@gmail.com.
+  -  Download required Python package
+         
+         pip install -r requirements.txt   
+
+## 6. Footer
+If you use this code or our models for your publication, please cite the original paper:
+
+Yu, Han, and Xiaozhou Luo. "ThermoFinder: A sequence-based thermophilic proteins prediction framework." bioRxiv (2024): 2024-01. [https://www.biorxiv.org/content/10.1101/2024.01.02.573852v1]
+
