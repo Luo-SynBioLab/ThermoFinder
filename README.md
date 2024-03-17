@@ -50,9 +50,10 @@ Other hardware equipments are not necessary.
 ## 5. Usage
 For ThermoFinder, you could run Fused_model_XX.py file,  model training and prediction are all implemented.
 
-  -  Download required Python package
+  -  Run the model ThermoSeq_c1.0:
          
-         pip install -r requirements.txt   
+         cd ThermoSeq_c1.0
+         python Fused_model_proteome.py
 
 ## 6. Footer
 If you use this code or our models for your publication, please cite the original paper:
