@@ -1,8 +1,28 @@
 # ThermoFinder: A sequence-based thermophilic proteins prediction framework
 
+<!-- Add buttons here -->
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
+![GitHub last commit](https://img.shields.io/badge/Last%20commit-May-critical)
+![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
+![GitHub](https://img.shields.io/badge/license-gpl--3.0-informational)
+
+<!-- Describe your project in brief -->
+**Feel free to contact me via email at yuhanid147@gmail.com if you encounter any issues or have any questions.**
+
+**Introduction of ThermoFinder.**
+
+Thermophilic proteins are important for academic research and industrial processes, and various computational methods have been developed to identify and screen them. However, their performance has been limited due to the lack of high-quality labeled data and efficient models for representing protein. Here, we proposed a novel sequence-based thermophilic proteins prediction framework, called ThermoFinder. The results demonstrated that ThermoFinder outperforms previous state-of-the-art tools on two benchmark datasets, and feature ablation experiments confirmed the effectiveness of our approach. Additionally, ThermoFinder exhibited exceptional performance and consistency across two newly constructed datasets, one of these was specifically constructed for the regression-based prediction of temperature optimum values directly derived from protein sequences. The feature importance analysis, using shapley additive explanations, further validated the advantages of ThermoFinder. We believe that ThermoFinder will be a valuable and comprehensive framework for predicting thermophilic proteins, and we have made our model open source and available on Github at https://github.com/Luo-SynBioLab/ThermoFinder.
+
 ## 1. Introduction
 These files contain source code for ThermoFinder. And established datasets in this article are also provided in [huggingface](https://huggingface.co/datasets/HanselYu/ThermoSeqNet).
 ThermoFinder is a python implementation of the model.
+
+**Here is the framework of ThermoFinder.**
+
+<p align="center">
+  <img  src="Figures/ThermoFinder.png" >
+</p>
 
 ## 2. Installation
 ```
