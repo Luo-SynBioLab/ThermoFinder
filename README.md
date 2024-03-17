@@ -21,7 +21,7 @@ ThermoFinder is a python implementation of the model.
 **Here is the framework of ThermoFinder.**
 
 <p align="center">
-  <img  src="Figures/ThermoFinder.png" >
+  <img  src="Figures/Figure1.jpg" >
 </p>
 
 ## 2. Installation
